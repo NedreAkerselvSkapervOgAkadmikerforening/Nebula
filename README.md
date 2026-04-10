@@ -18,7 +18,7 @@ Hovedkortet er hjernen og master i hele flydatamaskinen. Kortet bruker primært 
 Systemet drives av et enkelt 3.7 V LiPo-batteri, med 3.3 V logikk for alle moduler.
 
 **Sensorer:**
-- BMP390 - Trykk- og temperatursensor
+- BMP390 - Trykk- og temperatursensor ([lenke](https://www.3achips.com/p/11139403?utm_source=octopart&utm_medium=cpc&utm_campaign=3achips_launch))
 - BNO086 - Akselerometer, gyroskop og magnetometer
 
 **Datalogging:**
