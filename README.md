@@ -19,14 +19,13 @@ Systemet drives av et enkelt 3.7 V LiPo-batteri, med 3.3 V logikk for alle m
 
 **Sensorer:**
 - BMP390 - Trykk- og temperatursensor
-- BNO085 - Akselerometer, gyroskop og magnetometer
-- ADXL377 - High G akselerometer (+-200g)
+- BNO086 - Akselerometer, gyroskop og magnetometer
 
 **Datalogging:**
 - MEM2067-02-180-00-A - Hengslet SD kort modul ([lenke](https://no.mouser.com/ProductDetail/GCT/MEM2067-02-180-00-A?qs=KUoIvG%2F9IlYTw%2Fcc1GlNJA%3D%3D&srsltid=AfmBOooPYGt0VKhHioGUMaVG0J4CpHVvJOKDjSTnPHolRedy0QrVqX5W))
 
 **Telemetri:**
-- SX1262 - LoRa transceiver for trådløs kommunikasjon med bakken
+- SX1276 - LoRa transceiver for trådløs kommunikasjon med bakken
 
 **Kommunikasjon:**
 - USB-C (alternativt micro USB) – for kommunikasjon med PC og programmering
