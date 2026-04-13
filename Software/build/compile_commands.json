@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/eirik/Documents/Programming/Dragonfly/Nebula/Software/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/wawa.dir/includes_CXX.rsp -g -o CMakeFiles\\wawa.dir\\src\\main.cpp.obj -c C:\\Users\\eirik\\Documents\\Programming\\Dragonfly\\Nebula\\Software\\src\\main.cpp",
+  "file": "C:/Users/eirik/Documents/Programming/Dragonfly/Nebula/Software/src/main.cpp",
+  "output": "CMakeFiles/wawa.dir/src/main.cpp.obj"
+}
+]

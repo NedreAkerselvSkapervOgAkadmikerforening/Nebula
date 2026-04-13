@@ -1,0 +1,3 @@
+C:/Users/eirik/Documents/Programming/Dragonfly/Nebula/Software/build/CMakeFiles/wawa.dir
+C:/Users/eirik/Documents/Programming/Dragonfly/Nebula/Software/build/CMakeFiles/edit_cache.dir
+C:/Users/eirik/Documents/Programming/Dragonfly/Nebula/Software/build/CMakeFiles/rebuild_cache.dir
