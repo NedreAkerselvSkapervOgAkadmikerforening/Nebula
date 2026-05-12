@@ -1,0 +1,9 @@
+Manufacturer=CEVA
+PartNumber=BNO086
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=28
+Version=1.2
+Released=2023-08-31 06:07:39
+Downloaded=2026-05-11 19:38:34
+3D=Y

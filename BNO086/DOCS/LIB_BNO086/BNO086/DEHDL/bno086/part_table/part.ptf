@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BNO086'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CEVA", "BNO086" (!) = "", "BNO086", "Other", "526-BNO086", "https://www.mouser.co.uk/ProductDetail/CEVA/BNO086?qs=ulEaXIWI0c%2FqTo1scjodAw%3D%3D", "Accelerometer, Gyroscope, Magnetometer, Temperature, 9 Axis Sensor IC, SPI Output", "", "1.18 mm"
+END_PART
+
+END.
