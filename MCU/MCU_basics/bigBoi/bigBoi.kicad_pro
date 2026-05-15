@@ -632,7 +632,7 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "#PWR15-18,C26",
+    "used_designators": "#PWR15-30,C26",
     "variants": []
   },
   "sheets": [
@@ -643,6 +643,10 @@
     [
       "db613e93-62d9-4c37-b5dd-6dfd220d38f7",
       "Voltage Regulator"
+    ],
+    [
+      "f88a4f50-bdfc-44db-bd06-a2b26240335b",
+      "SX1276"
     ]
   ],
   "text_variables": {},

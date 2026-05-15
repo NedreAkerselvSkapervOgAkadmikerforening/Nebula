@@ -5550,6 +5550,16 @@
 		)
 		(uuid "90263913-ee44-4809-a716-dcc307aeef05")
 	)
+	(text "SX1276 radio module"
+		(exclude_from_sim no)
+		(at 32.258 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9dc9bc6f-a5b9-4a49-9b7d-3aa705041206")
+	)
 	(junction
 		(at 140.97 20.32)
 		(diameter 0)
@@ -6147,6 +6157,16 @@
 			(type default)
 		)
 		(uuid "3709fc04-9bcc-4c39-a494-4dae7ebcc55b")
+	)
+	(wire
+		(pts
+			(xy 289.56 62.23) (xy 289.56 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f99725-f24c-4862-9ee3-e2bf8f4250ad")
 	)
 	(wire
 		(pts
@@ -6880,7 +6900,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 300.99) (xy 207.01 304.8)
+			(xy 207.01 300.99) (xy 207.01 303.53)
 		)
 		(stroke
 			(width 0)
@@ -7090,6 +7110,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 53.34) (xy 289.56 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ea3a68-8b90-4cde-a71e-05a8e516b7a3")
+	)
+	(wire
+		(pts
 			(xy 194.31 20.32) (xy 207.01 20.32)
 		)
 		(stroke
@@ -7180,7 +7210,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 300.99) (xy 194.31 304.8)
+			(xy 194.31 300.99) (xy 194.31 303.53)
 		)
 		(stroke
 			(width 0)
@@ -7277,6 +7307,16 @@
 			(type default)
 		)
 		(uuid "fe67e014-ea3a-4539-a7c3-daf8bddc0b5f")
+	)
+	(label "SX1276_SCK_N"
+		(at 309.88 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c7f0a3c-0de7-4c7c-9171-06491ba77d24")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7605,7 +7645,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 194.31 304.8 0)
+		(at 194.31 303.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7616,7 +7656,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d16de39-0d8b-4aac-8f1b-9fbec6d0a193")
 		(property "Reference" "#PWR017"
-			(at 194.31 311.15 0)
+			(at 194.31 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7627,7 +7667,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 309.88 0)
+			(at 194.31 308.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7637,7 +7678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 304.8 0)
+			(at 194.31 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +7689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 304.8 0)
+			(at 194.31 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +7700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 304.8 0)
+			(at 194.31 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,6 +8399,7 @@
 		)
 		(property "Value" "GND"
 			(at 303.53 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9134,6 +9176,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 289.56 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7070a26b-6c79-4c60-a154-34834f741ba6")
+		(property "Reference" "#PWR019"
+			(at 289.56 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 289.56 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 289.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "940e7a8c-5d4d-4754-b983-b77c89162355")
+		)
+		(instances
+			(project "bigBoi"
+				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 266.7 53.34 180)
 		(unit 1)
@@ -9316,6 +9436,7 @@
 		)
 		(property "Value" "GND"
 			(at 334.01 38.1 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10258,6 +10379,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 289.56 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2f54004-efed-49a1-9b47-27ec7272cea4")
+		(property "Reference" "C?"
+			(at 293.37 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 293.37 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.5252 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 289.56 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec8294c9-412e-4b55-bcf6-2974bebc4563")
+		)
+		(pin "1"
+			(uuid "85b9540a-de22-425f-95d7-27f9341bdad4")
+		)
+		(instances
+			(project "bigBoi"
+				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 194.31 27.94 0)
 		(unit 1)
 		(body_style 1)
@@ -10340,7 +10543,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 304.8 0)
+		(at 207.01 303.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10351,7 +10554,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6840ef1-548e-40fe-94ea-b0a6f9373a56")
 		(property "Reference" "#PWR018"
-			(at 207.01 311.15 0)
+			(at 207.01 309.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10362,7 +10565,8 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 309.88 0)
+			(at 207.01 308.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10372,7 +10576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 304.8 0)
+			(at 207.01 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10383,7 +10587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 304.8 0)
+			(at 207.01 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10394,7 +10598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 304.8 0)
+			(at 207.01 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11011,6 +11215,7 @@
 		)
 		(property "Value" "GND"
 			(at 181.61 308.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11429,6 +11634,52 @@
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 57.15)
+		(size 34.29 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f88a4f50-bdfc-44db-bd06-a2b26240335b")
+		(property "Sheetname" "SX1276"
+			(at 21.59 56.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "radio.kicad_sch"
+			(at 21.59 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bigBoi"
+				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4"
+					(page "3")
 				)
 			)
 		)
