@@ -1168,10 +1168,22 @@
 		)
 	)
 	(junction
+		(at 138.43 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dc6b26b-d220-4ec4-8e26-d064b980eefc")
+	)
+	(junction
 		(at 176.53 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55bfb253-ed61-439b-a288-bb46b4bb122c")
+	)
+	(junction
+		(at 182.88 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662618fb-e2fd-471f-8c0d-76c3fe470009")
 	)
 	(junction
 		(at 154.94 82.55)
@@ -1233,6 +1245,26 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5f8433-37b1-451b-80ed-d6275dc611f8")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223abdd6-f787-4b50-b22d-ad2bbce52e9e")
+	)
+	(wire
+		(pts
 			(xy 161.29 99.06) (xy 161.29 100.33)
 		)
 		(stroke
@@ -1273,6 +1305,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 107.95) (xy 138.43 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e9741a-ed11-4b3a-87b1-04f6eaa7bb1f")
+	)
+	(wire
+		(pts
 			(xy 160.02 95.25) (xy 163.83 95.25)
 		)
 		(stroke
@@ -1310,6 +1352,16 @@
 			(type default)
 		)
 		(uuid "6f881ba9-6b57-4345-92ce-e60158c4bb4a")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776e47b3-5615-445a-a3f1-c60841e8c3c4")
 	)
 	(wire
 		(pts
@@ -1393,13 +1445,23 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 107.95) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e7427d-ba30-456f-9803-a44b9b036e4d")
+	)
+	(wire
+		(pts
 			(xy 138.43 69.85) (xy 138.43 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aeaffb15-da7d-4b1a-9e64-f5dee06e7035")
+		(uuid "b06af846-172c-4a42-8481-dbf0172406b9")
 	)
 	(wire
 		(pts
@@ -1463,13 +1525,23 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 90.17) (xy 168.91 90.17)
+			(xy 151.13 90.17) (xy 182.88 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0d072a4-1e26-4ab2-9e3a-212f3bb1e2e9")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 182.88 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62f9185-aef2-467e-bcfa-1fb90bf80438")
 	)
 	(wire
 		(pts
@@ -1502,7 +1574,7 @@
 		(uuid "28ced7df-e9e3-4ab8-8199-c3b57af9b468")
 	)
 	(label "(can replace LED with GPIO mcu)"
-		(at 148.59 111.76 0)
+		(at 151.13 110.49 0)
 		(effects
 			(font
 				(size 1 1)
@@ -1512,8 +1584,28 @@
 		)
 		(uuid "5ffa8eae-17f2-4b9f-a9b4-13b4f2d3565a")
 	)
+	(label "4.35V_to_10.5V"
+		(at 137.16 121.92 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2b026d9-546a-41c3-9c84-aba75e91d963")
+	)
+	(label "4.35V_to_10.5V"
+		(at 142.24 66.04 0)
+		(effects
+			(font
+				(size 0.75 0.75)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9755521-84c6-4a18-9815-71a5166c166e")
+	)
 	(label "battery +"
-		(at 160.02 90.17 0)
+		(at 184.15 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1521,6 +1613,88 @@
 			(justify left bottom)
 		)
 		(uuid "f35638f0-975b-4e8b-b145-0a46ce27acd5")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 142.24 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "084d1436-0487-4f09-83d1-b6ef4fa4de74")
+		(property "Reference" "C3"
+			(at 144.78 110.4962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 144.78 113.0362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 142.24 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "00b5d6ca-f872-4f69-9530-7f0dfc217b0e")
+		)
+		(pin "1"
+			(uuid "9ec0289d-6657-40b4-9de8-88b46cc1bd5b")
+		)
+		(instances
+			(project "batteri lader pcb"
+				(path "/f0f8d5a6-dff9-4180-8a23-3182a588a69e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1622,7 +1796,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 159.258 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1701,7 +1875,7 @@
 				)
 			)
 		)
-		(property "Value" "1.13kΩ"
+		(property "Value" "1.13k"
 			(at 123.698 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1940,7 +2114,7 @@
 				)
 			)
 		)
-		(property "Value" "1.18kΩ"
+		(property "Value" "1.18k"
 			(at 122.682 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7μF"
+		(property "Value" "4.7uF"
 			(at 157.48 86.3662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,8 +2435,8 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
-			(at 158.496 105.41 90)
+		(property "Value" "10k"
+			(at 158.75 105.156 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2570,7 +2744,7 @@
 		(dnp no)
 		(uuid "807a19e4-c429-459b-abdd-8e0dcb3b7e7c")
 		(property "Reference" "U1"
-			(at 140.97 74.168 0)
+			(at 140.208 79.248 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2581,7 +2755,7 @@
 			)
 		)
 		(property "Value" "BQ24074RGT"
-			(at 140.208 77.47 0)
+			(at 133.096 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2785,7 +2959,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1μF"
+		(property "Value" "1uF"
 			(at 137.16 113.0362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +3129,7 @@
 				)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "10k"
 			(at 159.258 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
