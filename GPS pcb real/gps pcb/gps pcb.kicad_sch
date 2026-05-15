@@ -2062,13 +2062,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 132.08 101.6)
+			(xy 110.49 101.6) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "38c6b4c3-1dfb-4c69-8a7b-9c315a07db4e")
+	)
+	(wire
+		(pts
+			(xy 114.3 83.82) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fd1808-6d5d-49c7-8e80-aef15f24fafb")
 	)
 	(wire
 		(pts
@@ -2122,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 114.3 55.88)
+			(xy 142.24 55.88) (xy 110.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2192,13 +2202,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 132.08 83.82)
+			(xy 110.49 55.88) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7d466e8-b8cc-4a9a-9075-2e1a98f74e7b")
+		(uuid "b308c3c0-c8a3-4215-b6f8-dd50ff373ed2")
 	)
 	(wire
 		(pts
@@ -2209,16 +2219,6 @@
 			(type default)
 		)
 		(uuid "d32f664b-ad9c-4b87-bd57-56694999d1f2")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d631aa6b-5633-4b2d-9562-f9c2a1c850ac")
 	)
 	(wire
 		(pts
@@ -2260,7 +2260,7 @@
 		)
 		(uuid "f63603be-d519-4448-abf2-c7f7f93a2631")
 	)
-	(label "MCU RX"
+	(label "MCU_RX_N"
 		(at 116.84 73.66 0)
 		(effects
 			(font
@@ -2270,7 +2270,7 @@
 		)
 		(uuid "1a5ed35f-f65e-48ee-93e9-8a768a9e96b3")
 	)
-	(label "MCU TX"
+	(label "MCU_TX_N"
 		(at 116.84 76.2 0)
 		(effects
 			(font
@@ -2280,7 +2280,7 @@
 		)
 		(uuid "44aa61e7-3eac-4559-a912-334215af8bd4")
 	)
-	(label "GPS WAKE"
+	(label "GPS_WAKE_N"
 		(at 116.84 81.28 0)
 		(effects
 			(font
@@ -2290,8 +2290,8 @@
 		)
 		(uuid "946c5348-08de-4e3e-9c6a-174494886b3a")
 	)
-	(label "GPS TIMEPULSE"
-		(at 116.84 83.82 0)
+	(label "GPS_TIMEPULSE_N"
+		(at 114.3 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 		)
 		(uuid "a65ecc35-63f6-43bf-b56a-ef3b88662294")
 	)
-	(label "GPS RESET"
+	(label "GPS_RESET_N"
 		(at 116.84 96.52 0)
 		(effects
 			(font
@@ -3058,7 +3058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85765a65-f1a8-4266-9e88-f8e61ce0dec1")
-		(property "Reference" "BT1"
+		(property "Reference" "GPS_BT1"
 			(at 157.48 26.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +3122,7 @@
 		(instances
 			(project "gps pcb"
 				(path "/8ebbdced-8093-4286-89ad-c0afecb178dd"
-					(reference "BT1")
+					(reference "GPS_BT1")
 					(unit 1)
 				)
 			)

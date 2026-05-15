@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "batteri lader pcb.kicad_pro",
+    "filename": "servo.controler.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -304,13 +304,13 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "u-blox SAM-M10Q.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV-data",
+      "name": "CSV",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -366,26 +366,14 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Beskrivelse",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Referanse"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -423,17 +411,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "batteri lader pcb.kicad_sch",
+        "filename": "servo.controler.kicad_sch",
         "name": "Rot",
-        "uuid": "f0f8d5a6-dff9-4180-8a23-3182a588a69e"
+        "uuid": "78733a6d-635d-45ed-9b54-5caea9243425"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-5",
     "variants": []
   },
   "sheets": [
     [
-      "f0f8d5a6-dff9-4180-8a23-3182a588a69e",
+      "78733a6d-635d-45ed-9b54-5caea9243425",
       "Rot"
     ]
   ],
