@@ -632,13 +632,17 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "U1,C1-23,#PWR1-8,FB1",
+    "used_designators": "#PWR15-18,C26",
     "variants": []
   },
   "sheets": [
     [
       "0a118c22-2522-42a6-b7a6-70c79326ece4",
       "Root"
+    ],
+    [
+      "db613e93-62d9-4c37-b5dd-6dfd220d38f7",
+      "Voltage Regulator"
     ]
   ],
   "text_variables": {},
