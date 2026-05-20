@@ -632,7 +632,7 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "#PWR15-30,C26",
+    "used_designators": "#PWR4,#PWR18,#PWR53-56",
     "variants": []
   },
   "sheets": [
@@ -647,6 +647,18 @@
     [
       "f88a4f50-bdfc-44db-bd06-a2b26240335b",
       "SX1276"
+    ],
+    [
+      "a4e29843-7119-4d54-a27a-f8cdecaec2b9",
+      "GPS"
+    ],
+    [
+      "14471f1c-ba4e-4782-80ac-ae2b6b6eba47",
+      "DM3AT"
+    ],
+    [
+      "c267ab07-0814-4d37-8bca-35bdb5036057",
+      "BNO086"
     ]
   ],
   "text_variables": {},
