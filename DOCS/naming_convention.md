@@ -11,3 +11,6 @@ altså_at_man_skriver_sånn_her
 
 ### Eksempel
 BNO086_MISO_30
+
+### ⚡ Power
+Alle positive powersymbols skal være 3.3V.
