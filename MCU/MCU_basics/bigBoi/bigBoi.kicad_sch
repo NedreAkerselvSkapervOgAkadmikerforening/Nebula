@@ -7371,6 +7371,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 86.36) (xy 323.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a11ed92-3b74-4aa1-a1af-0e607cb44b70")
+	)
+	(wire
+		(pts
 			(xy 264.16 337.82) (xy 264.16 340.36)
 		)
 		(stroke
@@ -7928,6 +7938,16 @@
 			(type default)
 		)
 		(uuid "b3866be6-a36a-4798-be3e-84cf40922516")
+	)
+	(wire
+		(pts
+			(xy 309.88 88.9) (xy 323.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5b7b9f9-c5ad-4c71-9d76-f49e2dc8b19c")
 	)
 	(wire
 		(pts
@@ -8539,6 +8559,26 @@
 		)
 		(uuid "fe67e014-ea3a-4539-a7c3-daf8bddc0b5f")
 	)
+	(label "BNO086_WAKE{slash}PS0_N"
+		(at 213.36 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "003f0aae-b09b-4c35-a727-31a22ff9a14e")
+	)
+	(label "BNO086_CSN_N"
+		(at 213.36 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "034f4b56-da24-4ff4-a4c1-419bdf7d1ce6")
+	)
 	(label "BNO086_MOSI_N"
 		(at 213.36 165.1 180)
 		(effects
@@ -8548,6 +8588,26 @@
 			(justify right bottom)
 		)
 		(uuid "0c93044d-81c7-4d82-b120-d19cfbfd0dae")
+	)
+	(label "GPS_TX_N"
+		(at 309.88 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d64a723-c417-4acb-a7f7-40cab72fe3d4")
+	)
+	(label "BNO086_NRST_N"
+		(at 213.36 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "111e2faa-fc38-4dbe-b2ad-5b949c3773da")
 	)
 	(label "SWDIO"
 		(at 309.88 106.68 0)
@@ -8559,6 +8619,16 @@
 		)
 		(uuid "16d9d896-7d9a-428d-be09-3ebf64b998e5")
 	)
+	(label "EXT_MOSI"
+		(at 317.5 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1739b7be-c5d2-4564-b279-66774450ecf8")
+	)
 	(label "VDSI"
 		(at 207.01 292.1 270)
 		(effects
@@ -8569,17 +8639,77 @@
 		)
 		(uuid "29ffa009-2c25-43f2-b755-a4f5bdf0328b")
 	)
-	(label "SX1276_SCK_N"
-		(at 328.93 124.46 0)
+	(label "EXT_SCLK"
+		(at 317.5 251.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3c7f0a3c-0de7-4c7c-9171-06491ba77d24")
+		(uuid "2b259ad9-1e94-4358-b73c-1d810e81445a")
+	)
+	(label "SX1276_MISO_N"
+		(at 323.85 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d427ae6-e419-4fec-aa51-83601e2dc6a8")
+	)
+	(label "SX1276_MOSI_N"
+		(at 328.93 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53511ecc-6b85-4487-89f2-8a8d40656228")
+	)
+	(label "PWM_TIM3CH4_FIN2"
+		(at 309.88 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54799e66-fde1-4ad1-8966-564c7a04a834")
+	)
+	(label "GPS_RESET_N"
+		(at 309.88 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1180f6-117e-4e11-8f00-e5a835c01534")
 	)
 	(label "DM3AT_MOSI_0"
+		(at 309.88 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b949efd-d447-48d2-a7ce-6e2d37933ff9")
+	)
+	(label "PWM_TIM2CH1_SERVOPARA"
+		(at 309.88 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f9ad175-cd71-4e2a-afac-d82bc7e6101a")
+	)
+	(label "GPS_WAKE_N"
 		(at 309.88 190.5 0)
 		(effects
 			(font
@@ -8587,17 +8717,47 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "52ffe47a-08a0-45d1-8085-2694e3a11c61")
+		(uuid "5ffabe63-6e7d-4989-af94-051ad5414607")
 	)
-	(label "DM3AT_MISO_N"
-		(at 309.88 187.96 0)
+	(label "PWM_TIM3CH1_FIN3"
+		(at 309.88 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8dfae9e7-a32f-4ac5-a5c2-32ab71137f69")
+		(uuid "68eea5fd-15af-4c73-9242-a90277ac3cbd")
+	)
+	(label "BNO086_CLKSEL_N"
+		(at 213.36 172.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e23b21b-ad65-4eae-a91e-76da8790cd3f")
+	)
+	(label "DM3AT_SCLK_N"
+		(at 328.93 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77d5e118-6e98-4f3e-9ba8-1396795a9686")
+	)
+	(label "BNO086_INTN_N"
+		(at 213.36 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c31878b-6266-4617-835b-772207076f48")
 	)
 	(label "BNO086_SCLK_N"
 		(at 309.88 210.82 0)
@@ -8609,6 +8769,16 @@
 		)
 		(uuid "9b354fb5-ae36-4aa9-9468-466ccc53a551")
 	)
+	(label "PWM_TIM3CH3_FIN1"
+		(at 309.88 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a784f8e2-a73b-4303-997f-c52a4ac5d202")
+	)
 	(label "VDSI"
 		(at 281.94 54.61 90)
 		(effects
@@ -8619,15 +8789,45 @@
 		)
 		(uuid "a7c5e47e-23b1-4dad-90f0-91c845217a68")
 	)
-	(label "SX1276_MOSI_N"
-		(at 328.93 129.54 0)
+	(label "GPS_TIMEPULSE_N"
+		(at 309.88 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ab792dad-f81f-4313-8ce4-7cec9d854136")
+		(uuid "b5b1d124-2748-4d66-b394-8a82317d0a3a")
+	)
+	(label "GPS_RX_N"
+		(at 309.88 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b69c3de8-fb0d-43e4-922d-4baa48e136bc")
+	)
+	(label "SX1276_SCK_N"
+		(at 323.85 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf9f1aca-d98a-4c57-a76a-938d092370a0")
+	)
+	(label "DM3AT_CS_N"
+		(at 309.88 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c85f96b8-4e80-4643-8a48-da63312aef36")
 	)
 	(label "SWCLK"
 		(at 309.88 109.22 0)
@@ -8649,17 +8849,7 @@
 		)
 		(uuid "cd514faa-9dc6-4302-8f7a-07adcf41091e")
 	)
-	(label "DM3AT_SCLK_N"
-		(at 309.88 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e63f9a2f-89cd-4df1-b315-34cbdcc44ef7")
-	)
-	(label "SX1276_MISO_N"
+	(label "DM3AT_MISO_N"
 		(at 328.93 127 0)
 		(effects
 			(font
@@ -8667,7 +8857,47 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f2e5a522-707d-42a7-bfe4-0694241db97d")
+		(uuid "d3070b21-6518-4efc-a5fa-b2e5a6ae7f9d")
+	)
+	(label "BNO086_BOOT_N"
+		(at 213.36 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d878a23d-6f91-4f4e-ad8e-08673d913b76")
+	)
+	(label "PWM_TIM3CH2_FIN4"
+		(at 309.88 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dad775ae-0d06-4263-a1ee-d68fea323871")
+	)
+	(label "EXT_MISO"
+		(at 317.5 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1508d92-d700-4310-80a6-e41da2aae0bd")
+	)
+	(label "DM3AT_CD_N"
+		(at 309.88 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4c19f8a-30f1-4e55-8337-6eb85938a8df")
 	)
 	(symbol
 		(lib_id "power:GND")

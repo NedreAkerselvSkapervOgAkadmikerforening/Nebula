@@ -2466,7 +2466,7 @@
 		)
 		(uuid "0212cfa2-a1b9-4237-9ef5-0f7c2d920f12")
 	)
-	(label "GPS_RX_N"
+	(label "GPS_TX_N"
 		(at 90.17 100.33 0)
 		(effects
 			(font
@@ -2476,7 +2476,7 @@
 		)
 		(uuid "02417501-c637-45c7-a3b2-6f65f4ad6c5b")
 	)
-	(label "GPS_TX_N"
+	(label "GPS_RX_N"
 		(at 90.17 102.87 0)
 		(effects
 			(font
