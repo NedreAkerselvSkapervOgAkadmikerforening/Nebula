@@ -632,7 +632,7 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "#PWR4,#PWR18,#PWR53-57",
+    "used_designators": "#PWR1-72,#FLG1-6,R1-6,J1-3,C1-46,U1-6,Y1-3,1.5pF1,1nF1,100nF1-6,10uF1,IC1,15pF1-2,GPS_BT1,4.7pF1,47pF1-2,D1,FB1,L1-3,MCU_Header1,SW1",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "c267ab07-0814-4d37-8bca-35bdb5036057",
       "BNO086"
+    ],
+    [
+      "7e17ce98-d5ff-4274-a7f7-9b15cee26061",
+      "BMP390"
     ]
   ],
   "text_variables": {},

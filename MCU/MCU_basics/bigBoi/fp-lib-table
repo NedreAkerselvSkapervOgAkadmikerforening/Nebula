@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Nebula-footprints") (type "KiCad") (uri "${KIPRJMOD}/Nebula-footprints.pretty") (options "") (descr ""))
+)

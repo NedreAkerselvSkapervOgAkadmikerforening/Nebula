@@ -864,7 +864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f1a5185-5d80-43a2-b4b2-8cee65a8c876")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR026"
 			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -924,7 +924,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/db613e93-62d9-4c37-b5dd-6dfd220d38f7"
-					(reference "#PWR014")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -942,7 +942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a28e4ac-72e1-426a-9bb4-b577e20bd2c5")
-		(property "Reference" "C24"
+		(property "Reference" "C33"
 			(at 39.37 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1006,7 +1006,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/db613e93-62d9-4c37-b5dd-6dfd220d38f7"
-					(reference "C24")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -1107,7 +1107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0cc5f4e-1048-4040-9254-6242312421db")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 35.56 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -1167,7 +1167,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/db613e93-62d9-4c37-b5dd-6dfd220d38f7"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1185,7 +1185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d604cd77-4a7e-40b3-87ff-acf36d161fa6")
-		(property "Reference" "C25"
+		(property "Reference" "C34"
 			(at 69.85 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1249,7 +1249,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/db613e93-62d9-4c37-b5dd-6dfd220d38f7"
-					(reference "C25")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1267,7 +1267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6814665-c105-4291-bd02-d13ad04b7ea4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 35.56 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -1328,7 +1328,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/db613e93-62d9-4c37-b5dd-6dfd220d38f7"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
