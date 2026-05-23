@@ -1167,6 +1167,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "I_CHARGE = 890 / R_ISET"
+		(exclude_from_sim no)
+		(at 120.142 106.68 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+		(uuid "09806541-1251-4f7d-b4de-c3b0d28365d6")
+	)
 	(junction
 		(at 138.43 107.95)
 		(diameter 0)
@@ -2745,6 +2755,7 @@
 		(uuid "807a19e4-c429-459b-abdd-8e0dcb3b7e7c")
 		(property "Reference" "U1"
 			(at 140.208 79.248 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
