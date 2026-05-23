@@ -521,7 +521,7 @@
 	)
 	(gr_circle
 		(center 120 100)
-		(end 157.5 100)
+		(end 155 100)
 		(stroke
 			(width 0.05)
 			(type solid)
