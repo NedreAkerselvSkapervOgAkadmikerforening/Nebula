@@ -2175,28 +2175,16 @@
 		(uuid "3a249b99-c43e-4305-94f7-5ef2c737b8d5")
 	)
 	(junction
-		(at 142.24 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6620311f-e6b7-4bc2-8521-33e85957bb97")
-	)
-	(junction
 		(at 152.4 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cb2c7ec-1e45-4514-9947-00b9c67f87b6")
 	)
 	(junction
-		(at 143.51 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdb2978c-97ff-4749-96c1-849ea089e33e")
-	)
-	(junction
 		(at 143.51 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e037b0f3-2b44-464a-9a9b-e79d215b1f8b")
+		(uuid "b7651b6a-d3a2-47b5-b45b-5bff39a7b5e0")
 	)
 	(no_connect
 		(at 132.08 66.04)
@@ -2227,6 +2215,10 @@
 		(uuid "8dbde226-b239-40c8-9a8d-0e008e421609")
 	)
 	(no_connect
+		(at 132.08 101.6)
+		(uuid "8df1e14b-74ba-457b-98d9-d37f99564555")
+	)
+	(no_connect
 		(at 162.56 109.22)
 		(uuid "a5124dd4-156c-459a-8a78-cb31f1c8fd89")
 	)
@@ -2248,13 +2240,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 101.6) (xy 132.08 101.6)
+			(xy 143.51 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38c6b4c3-1dfb-4c69-8a7b-9c315a07db4e")
+		(uuid "2bd9292c-e454-4f5c-bfda-b3a479964fbb")
+	)
+	(wire
+		(pts
+			(xy 143.51 44.45) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40718f60-950f-4adb-ba43-78bf27c60531")
 	)
 	(wire
 		(pts
@@ -2275,16 +2277,6 @@
 			(type default)
 		)
 		(uuid "451f242b-fc1f-48a9-bd95-fd676acbf687")
-	)
-	(wire
-		(pts
-			(xy 140.97 44.45) (xy 143.51 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498c9ef7-a75e-41ec-bc26-703b6db511f6")
 	)
 	(wire
 		(pts
@@ -2328,16 +2320,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8973362b-6b0c-4a0b-a6d2-4f28c30b7375")
-	)
-	(wire
-		(pts
 			(xy 144.78 55.88) (xy 144.78 58.42)
 		)
 		(stroke
@@ -2358,16 +2340,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 144.78 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f8167ed-56ea-4b2a-b34f-b786858551ff")
-	)
-	(wire
-		(pts
 			(xy 116.84 96.52) (xy 132.08 96.52)
 		)
 		(stroke
@@ -2378,16 +2350,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 49.53) (xy 143.51 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0005ade-f0b5-4335-adec-0dba15ed2b7f")
-	)
-	(wire
-		(pts
 			(xy 116.84 73.66) (xy 132.08 73.66)
 		)
 		(stroke
@@ -2395,16 +2357,6 @@
 			(type default)
 		)
 		(uuid "b0750edd-9b0a-433b-9ca5-6a5bfbfe418c")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 110.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b308c3c0-c8a3-4215-b6f8-dd50ff373ed2")
 	)
 	(wire
 		(pts
@@ -2425,26 +2377,6 @@
 			(type default)
 		)
 		(uuid "d9606935-dec9-4c08-9d5a-e4ddf0ee868a")
-	)
-	(wire
-		(pts
-			(xy 143.51 44.45) (xy 146.05 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9c11e3-227f-4ada-96f8-f72781452408")
-	)
-	(wire
-		(pts
-			(xy 140.97 52.07) (xy 146.05 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44ddd92-c5e1-4688-8abd-f45685e14e25")
 	)
 	(wire
 		(pts
@@ -3006,87 +2938,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 140.97 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "559fafe6-4f92-4287-9145-f75d3d7fddc5")
-		(property "Reference" "C1"
-			(at 137.414 45.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 134.62 50.038 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.9352 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 140.97 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6cbea0a4-21c3-439e-b8ea-c34dad5bff92")
-		)
-		(pin "2"
-			(uuid "be861360-7d67-4285-a386-61fddaa63109")
-		)
-		(instances
-			(project "gps pcb"
-				(path "/8ebbdced-8093-4286-89ad-c0afecb178dd"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 119.38 0)
 		(unit 1)
@@ -3397,87 +3248,6 @@
 			(project "gps pcb"
 				(path "/8ebbdced-8093-4286-89ad-c0afecb178dd"
 					(reference "GPS_BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9ede310-c606-4170-8a6a-3d69f871606d")
-		(property "Reference" "C2"
-			(at 147.32 46.228 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 146.812 50.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.0152 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ded2338f-0edf-45a9-a5da-fc97bf01704f")
-		)
-		(pin "2"
-			(uuid "c33ba6e5-65c4-4898-bd88-9259af60959c")
-		)
-		(instances
-			(project "gps pcb"
-				(path "/8ebbdced-8093-4286-89ad-c0afecb178dd"
-					(reference "C2")
 					(unit 1)
 				)
 			)
