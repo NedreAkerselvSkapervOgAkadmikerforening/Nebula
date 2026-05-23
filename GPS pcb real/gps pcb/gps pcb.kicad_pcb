@@ -90,13 +90,13 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "55abb8c3-1093-4d03-a2e5-58bf87ade6e8")
-		(at 234.075 140.775)
+		(at 153.88 109)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
 			(at 3.81 -2.12 0)
 			(layer "F.SilkS")
-			(uuid "b9f30151-b1b1-4173-a143-61167c77a8ff")
+			(uuid "8691ea9a-596a-4dd6-9ea5-67991408d177")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "1N914"
 			(at 3.81 2.12 0)
 			(layer "F.Fab")
-			(uuid "0af03b47-04c9-4330-a52a-c7bf1df70df5")
+			(uuid "b9f15e47-1d26-4bae-838a-b770b0c5b183")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4add09c-f602-48e9-8ce9-1584d1e1c87b")
+			(uuid "02bb1e4e-f5cd-49c9-94bc-17f930b21d16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8471d4d-8d8e-4c44-a42f-a3a36d18e6a0")
+			(uuid "926a0591-c5e6-4f1a-9582-054905cbdbed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -392,7 +392,7 @@
 	(footprint "Package_LGA:ublox_LGA-53_4.5x4.5mm_Layout9x9_P0.5mm"
 		(layer "F.Cu")
 		(uuid "eceeb5d0-801c-4a4e-82b8-03678b6c45ed")
-		(at 236.275 146.325)
+		(at 149.5 100.5)
 		(descr "ublox MIA SoC Module, 4.5x4.5mm, 53 Ball, 9x9 Layout, 0.5mm Pitch, https://content.u-blox.com/sites/default/files/documents/MIA-M10Q_IntegrationManual_UBX-21028173.pdf#page=82")
 		(tags "LGA 53 0.5 ublox_MIA-M-LGA53")
 		(property "Reference" "U1"

@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "where is the feet") (type "KiCad") (uri "C:/Users/johea032/OneDrive - Osloskolen/Skrivebord/Nebula/GPS pcb real/where is the feet.pretty") (options "") (descr ""))
+	(lib (name "GPS pcb real") (type "KiCad") (uri "C:/Users/johea032/OneDrive - Osloskolen/Skrivebord/Nebula/GPS pcb real/GPS pcb real.pretty") (options "") (descr ""))
+)
