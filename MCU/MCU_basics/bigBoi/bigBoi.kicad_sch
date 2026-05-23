@@ -9387,16 +9387,6 @@
 		)
 		(uuid "fe67e014-ea3a-4539-a7c3-daf8bddc0b5f")
 	)
-	(label "GPS_TX_N"
-		(at 309.88 187.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d64a723-c417-4acb-a7f7-40cab72fe3d4")
-	)
 	(label "SWDIO"
 		(at 309.88 106.68 0)
 		(effects
@@ -9447,16 +9437,6 @@
 		)
 		(uuid "54799e66-fde1-4ad1-8966-564c7a04a834")
 	)
-	(label "GPS_RESET_N"
-		(at 309.88 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b1180f6-117e-4e11-8f00-e5a835c01534")
-	)
 	(label "PWM_TIM2CH1_SERVOPARA"
 		(at 309.88 111.76 0)
 		(effects
@@ -9466,16 +9446,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f9ad175-cd71-4e2a-afac-d82bc7e6101a")
-	)
-	(label "GPS_WAKE_N"
-		(at 309.88 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ffabe63-6e7d-4989-af94-051ad5414607")
 	)
 	(label "PWM_TIM3CH1_FIN3"
 		(at 309.88 175.26 0)
@@ -9507,26 +9477,6 @@
 		)
 		(uuid "a7c5e47e-23b1-4dad-90f0-91c845217a68")
 	)
-	(label "GPS_TIMEPULSE_N"
-		(at 309.88 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5b1d124-2748-4d66-b394-8a82317d0a3a")
-	)
-	(label "GPS_RX_N"
-		(at 309.88 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b69c3de8-fb0d-43e4-922d-4baa48e136bc")
-	)
 	(label "SWCLK"
 		(at 309.88 109.22 0)
 		(effects
@@ -9556,6 +9506,30 @@
 			(justify left bottom)
 		)
 		(uuid "e1508d92-d700-4310-80a6-e41da2aae0bd")
+	)
+	(global_label "GPS_WAKE_N"
+		(shape input)
+		(at 309.88 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09afa018-4a2c-4d3f-8c87-c0beac1c8e3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.8394 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "DM3AT_MISO_N"
 		(shape input)
@@ -9642,6 +9616,30 @@
 		(uuid "197ea397-e920-45bf-8d8a-48e95d3ce330")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.0341 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPS_RESET_N"
+		(shape input)
+		(at 309.88 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37a23e9d-dea6-4c9d-afaa-991abac4fabe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.6255 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9989,6 +9987,30 @@
 			)
 		)
 	)
+	(global_label "GPS_TIMEPULSE_N"
+		(shape input)
+		(at 309.88 195.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be0f3733-bb29-45cc-a5db-792aede22ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 330.0403 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DM3AT_CS_N"
 		(shape input)
 		(at 309.88 220.98 0)
@@ -10002,6 +10024,30 @@
 		(uuid "ca63d2e3-4d03-4557-b59d-6a67950ce53f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 324.5975 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPS_RX_N"
+		(shape input)
+		(at 309.88 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1343987-10a0-402a-a832-cf735e84f590")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.3599 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10098,6 +10144,30 @@
 		(uuid "fb71b6e6-fb17-4a96-b43b-2d0449441455")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.7403 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPS_TX_N"
+		(shape input)
+		(at 309.88 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb8b28fd-61b9-4c98-a968-e032bdcc88a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.0575 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

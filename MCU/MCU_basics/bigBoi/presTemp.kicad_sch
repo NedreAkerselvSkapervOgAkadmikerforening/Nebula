@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "63d5f347-e8d2-41de-bb12-877187aa22b7")
+	(uuid "550ee4b1-eec3-4658-abb6-1efa47168bac")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BMP390:BMP390"
