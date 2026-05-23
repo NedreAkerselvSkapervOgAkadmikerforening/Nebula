@@ -804,6 +804,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Revise bulk capacitanse, see trace length"
 		(exclude_from_sim no)
@@ -838,6 +953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8b4fd29-9157-45e8-a3fa-a82254905477")
+	)
+	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caeabd4f-c33a-48db-8006-73b5ef6303f5")
 	)
 	(junction
 		(at 93.98 87.63)
@@ -967,16 +1088,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 93.98 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "849b7891-c5db-49ca-afed-b4be8ae3faad")
-	)
-	(wire
-		(pts
 			(xy 133.35 87.63) (xy 107.95 87.63)
 		)
 		(stroke
@@ -1067,6 +1178,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 102.87) (xy 107.95 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e317cc3c-62a1-4e63-9c6d-a2128f377ec7")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec757f98-73a5-478a-887f-31168f8b02a7")
+	)
+	(wire
+		(pts
 			(xy 193.04 97.79) (xy 193.04 100.33)
 		)
 		(stroke
@@ -1085,55 +1216,204 @@
 		)
 		(uuid "f6a0022b-4785-46b8-9be7-e3ed75acbb60")
 	)
-	(label "DM3AT_SCLK_N"
-		(at 149.86 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1cb1617d-aded-44fd-b4fe-f20bf4c935ba")
-	)
-	(label "DM3AT_MOSI_0"
-		(at 149.86 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4bd60dda-186e-4e61-95d5-d572509acc03")
-	)
-	(label "DM3AT_CS_N"
-		(at 149.86 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52045bb1-5e7f-4d25-a08b-e683aa215d9c")
-	)
-	(label "DM3AT_CD_N"
-		(at 190.5 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71a6c9cf-8b55-4ea2-ae06-f392493f7501")
-	)
-	(label "DM3AT_MISO_N"
+	(global_label "DM3AT_MISO_N"
+		(shape input)
 		(at 149.86 102.87 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "c4e6bade-976e-477e-b73f-ac86f6b95598")
+		(uuid "0214f480-8a33-43a8-8282-d46a57b91b25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.0258 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DM3AT_MOSI_0"
+		(shape input)
+		(at 149.86 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53c56910-a691-44d3-973d-5e4ddc516d50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1468 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DM3AT_CD_N"
+		(shape input)
+		(at 190.5 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8187ded5-7e1b-425d-94d0-4859eff31b24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.278 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DM3AT_SCLK_N"
+		(shape input)
+		(at 149.86 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bba62f9-32e6-474f-8177-754273704fa6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.8444 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "DM3AT_CS_N"
+		(shape input)
+		(at 149.86 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e830e971-dfd3-4769-bc88-60503c741781")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.1425 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "302476b5-586c-4771-8596-f85a34329dd5")
+		(property "Reference" "#FLG05"
+			(at 101.6 104.775 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "367531bf-0813-414e-be43-1691948d1e44")
+		)
+		(instances
+			(project "bigBoi"
+				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/14471f1c-ba4e-4782-80ac-ae2b6b6eba47"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1248,7 +1528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 108.9152 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -1328,7 +1608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM3ATSFPEJM540"
+		(property "Footprint" "Nebula-footprints:DM3ATSFPEJM540"
 			(at 186.69 182.55 0)
 			(hide yes)
 			(show_name no)
@@ -1508,7 +1788,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.9452 99.06 0)
 			(hide yes)
 			(show_name no)
