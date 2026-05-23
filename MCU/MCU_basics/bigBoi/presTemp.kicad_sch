@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "550ee4b1-eec3-4658-abb6-1efa47168bac")
+	(uuid "5d490d60-6b09-4ed5-81d4-f575f4aad63b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BMP390:BMP390"
@@ -1739,7 +1739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BMP390:BMP390"
+		(property "Footprint" "Nebula-footprints:BMP390"
 			(at 157.48 195.25 0)
 			(hide yes)
 			(show_name no)

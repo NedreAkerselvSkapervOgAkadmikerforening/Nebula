@@ -3146,7 +3146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c1d3cb-a43c-44bd-a34e-5fa7ab77d28e")
-		(property "Reference" "15pF2"
+		(property "Reference" "C47"
 			(at 106.6736 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3156,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15pF"
 			(at 106.6736 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3208,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "15pF2")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0c43b765-8238-4d39-aead-a39d1f8bf7f6")
-		(property "Reference" "47pF2"
+		(property "Reference" "C58"
 			(at 249.174 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3235,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "47pF"
 			(at 249.174 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3287,7 +3287,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "47pF2")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3304,7 +3304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ea4b605-d500-4262-94dc-78f80ebc44aa")
-		(property "Reference" "100nF5"
+		(property "Reference" "C52"
 			(at 162.814 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3315,7 +3315,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 162.56 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3368,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF5")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16cb9f90-6209-479b-8827-2bce9f5cd065")
-		(property "Reference" "100nF4"
+		(property "Reference" "C51"
 			(at 153.67 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +3636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 153.67 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3689,7 +3689,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF4")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -3784,7 +3784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "226738e4-4b85-440c-b5fd-3c453ff35b67")
-		(property "Reference" "47pF1"
+		(property "Reference" "C53"
 			(at 160.0263 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3794,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "47pF"
 			(at 160.0263 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3846,7 +3846,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "47pF1")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3045d56b-bc65-4d66-996c-e9ea6c0056b6")
-		(property "Reference" "10uF1"
+		(property "Reference" "C59"
 			(at 99.06 64.7762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +3875,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10uF"
 			(at 99.06 67.3162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 96.52 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3928,7 +3928,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "10uF1")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -4107,7 +4107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "369f2c91-6db2-4f2d-8f97-46798e9f957e")
-		(property "Reference" "100nF2"
+		(property "Reference" "C49"
 			(at 128.27 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4118,7 +4118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 128.27 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4171,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF2")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -4421,7 +4421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4442460f-c04e-452c-a525-17764d6f2f1d")
-		(property "Reference" "100nF1"
+		(property "Reference" "C48"
 			(at 115.57 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4432,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 115.57 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4485,7 +4485,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF1")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6adf7338-453b-45f3-9b6e-ee2b0af0866a")
-		(property "Reference" "100nF6"
+		(property "Reference" "C54"
 			(at 166.37 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 166.37 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,7 +4880,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF6")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -4975,7 +4975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e7e45fc-749d-417b-92fe-c6304163efc1")
-		(property "Reference" "4.7pF1"
+		(property "Reference" "C56"
 			(at 197.104 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4.7pF"
 			(at 197.104 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5037,7 +5037,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "4.7pF1")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9be34e33-4411-486c-80f3-2610058bdba8")
-		(property "Reference" "1nF1"
+		(property "Reference" "C57"
 			(at 229.616 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5450,7 +5450,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1nF"
 			(at 229.87 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5502,7 +5502,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "1nF1")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -5599,7 +5599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47d5424-f54f-49d2-96e4-3876243f0380")
-		(property "Reference" "15pF1"
+		(property "Reference" "C28"
 			(at 106.6736 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5609,7 +5609,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "15pF"
 			(at 106.6736 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,7 +5661,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "15pF1")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa0854ff-e830-4fcb-a0b8-0ce34f0a8c87")
-		(property "Reference" "1.5pF1"
+		(property "Reference" "C55"
 			(at 179.324 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5765,7 +5765,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "1.5pF"
 			(at 179.324 93.218 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5817,7 +5817,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "1.5pF1")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d86c2680-4b82-4ca8-a3b1-a6c82dae759b")
-		(property "Reference" "100nF3"
+		(property "Reference" "C50"
 			(at 140.97 55.8862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6078,7 +6078,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 140.97 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,7 +6131,7 @@
 		(instances
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/f88a4f50-bdfc-44db-bd06-a2b26240335b"
-					(reference "100nF3")
+					(reference "C50")
 					(unit 1)
 				)
 			)
