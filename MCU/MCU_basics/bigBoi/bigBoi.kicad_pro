@@ -632,7 +632,7 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "#PWR15-18,C26",
+    "used_designators": "#PWR1-78,#FLG1-7,R1-7,J1-6,C1-59,U1-6,Y1-3,1.5pF1,1nF1,100nF1-6,10uF1,IC1,15pF1-2,GPS_BT1,4.7pF1,47pF1-2,D1-2,FB1,L1-3,MCU_Header1,SW1,BT1",
     "variants": []
   },
   "sheets": [
@@ -643,6 +643,26 @@
     [
       "db613e93-62d9-4c37-b5dd-6dfd220d38f7",
       "Voltage Regulator"
+    ],
+    [
+      "f88a4f50-bdfc-44db-bd06-a2b26240335b",
+      "SX1276"
+    ],
+    [
+      "a4e29843-7119-4d54-a27a-f8cdecaec2b9",
+      "GPS"
+    ],
+    [
+      "14471f1c-ba4e-4782-80ac-ae2b6b6eba47",
+      "DM3AT"
+    ],
+    [
+      "c267ab07-0814-4d37-8bca-35bdb5036057",
+      "BNO086"
+    ],
+    [
+      "7e17ce98-d5ff-4274-a7f7-9b15cee26061",
+      "BMP390"
     ]
   ],
   "text_variables": {},
