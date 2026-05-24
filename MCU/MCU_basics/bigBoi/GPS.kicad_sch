@@ -3144,7 +3144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 152.4 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3387,7 +3387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:ublox_LGA-53_4.5x4.5mm_Layout9x9_P0.5mm"
+		(property "Footprint" "Nebula-footprints:MIA-M10Q"
 			(at 120.65 115.57 0)
 			(hide yes)
 			(show_name no)
