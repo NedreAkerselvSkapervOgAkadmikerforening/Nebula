@@ -1518,7 +1518,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "GND"
 			(at 93.9801 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
