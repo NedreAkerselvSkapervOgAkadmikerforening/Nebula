@@ -677,7 +677,7 @@
         "uuid": "0a118c22-2522-42a6-b7a6-70c79326ece4"
       }
     ],
-    "used_designators": "#PWR1-91,#FLG1-7,R1-7,J1-6,C1-59,U1-7,Y1-3,1.5pF1,1nF1,100nF1-6,10uF1,IC1,15pF1-2,GPS_BT1,4.7pF1,47pF1-2,D1-2,FB1,L1-3,MCU_Header1,SW1,BT1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
