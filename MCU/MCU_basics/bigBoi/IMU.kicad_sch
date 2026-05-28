@@ -1640,6 +1640,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 69.85) (xy 200.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063e5bf8-3d87-417c-b772-47ce0d1596a9")
+	)
+	(wire
+		(pts
 			(xy 214.63 96.52) (xy 214.63 99.06)
 		)
 		(stroke
@@ -1677,6 +1687,16 @@
 			(type default)
 		)
 		(uuid "17480cbe-004b-4802-8c08-0ae79f82855b")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 213.36 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ae0c73-991c-4cc5-9e9b-549388e0ffe9")
 	)
 	(wire
 		(pts
@@ -1727,6 +1747,16 @@
 			(type default)
 		)
 		(uuid "34f66919-36aa-4197-a564-b9835aac9d5d")
+	)
+	(wire
+		(pts
+			(xy 200.66 71.12) (xy 213.36 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e0b4c1-a6f6-4392-b35f-421ea185ebb9")
 	)
 	(wire
 		(pts
@@ -1957,6 +1987,16 @@
 			(type default)
 		)
 		(uuid "d82f419f-0967-4ddb-b298-6cb1071f30fa")
+	)
+	(wire
+		(pts
+			(xy 200.66 62.23) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3f1bb1d-ce46-4786-9765-48719a37c5d8")
 	)
 	(wire
 		(pts
@@ -3038,6 +3078,88 @@
 			(project "bigBoi"
 				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/c267ab07-0814-4d37-8bca-35bdb5036057"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d8585fb-1aa0-4585-9556-7bec392134d0")
+		(property "Reference" "C60"
+			(at 204.47 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 204.47 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.6252 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d8fdf85-2926-49f6-84fe-a4a82c890fbe")
+		)
+		(pin "2"
+			(uuid "58908903-9104-4f7e-b786-5e6bbc46eb34")
+		)
+		(instances
+			(project "bigBoi"
+				(path "/0a118c22-2522-42a6-b7a6-70c79326ece4/c267ab07-0814-4d37-8bca-35bdb5036057"
+					(reference "C60")
 					(unit 1)
 				)
 			)
